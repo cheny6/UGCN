@@ -1,6 +1,6 @@
 # UGCN
 
-*这基本是一个稳定版本，足够简练且平稳，目前在高性能优化*
+*这是一个稳定版本，足够简练且平稳
 
 ## 数据处理
 
@@ -41,3 +41,20 @@ python evaluate.py --epochs 100 --dev cuda:0 --pretrained runs/pretrain/cs/gcn.p
 ```
 torch pyyaml tensorboardX einops h5py scikit-learn tqdm
 ```
+
+## 结果
+在 2024 年 6 月之前，本方法在该任务上达到了当时的 SOTA（state-of-the-art）效果。目前我已不再追踪该方向。
+
+本方法在本人毕业论文中取得了该任务的 SOTA 成绩，但尚未在任何期刊或会议上发表。
+
+任何人都可以自由使用或修改本项目的代码。
+
+—— 祝一切顺利。
+
+![alt text](docs/1.png)
+
+![alt text](docs/2.png)
+
+![alt text](docs/3.png)
+
+![alt text](docs/4.png)
